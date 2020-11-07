@@ -509,7 +509,7 @@ main {
   top: 0rem;
   width: 380px;
   height: 450px;
-  background-color: rgba(15, 15, 15, 0.473);
+  background-color: rgba(15, 15, 15, 0.322);
   
   display: flex;
   text-align: center;
@@ -517,12 +517,13 @@ main {
   align-items: flex-end;
   color: #fff;
   cursor: pointer;
-  transition: .3s all ease-in-out;
+  transition: .5s all ease-in-out;
 }
 
 .absolute-grid-item:hover {
   background-color: rgba(0, 0, 0, 0);
   color: rgba(0, 0, 0, 0.753);
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.3);
 }
 
 .services-title {
@@ -590,12 +591,28 @@ main {
 
 .quote-box {
   position: absolute;
+  top: 3.5rem;
+  left: 45rem;
   width: 250px;
-  height: 275px;
+  height: 262.75px;
   padding: 50px;
-  background: linear-gradient(115deg,rgb(104, 14, 177, .5), rgba(103, 36, 211, 0.9));
-  border-radius: 10px;
-  border-bottom-left-radius: 45%;
+  background: linear-gradient(115deg,rgba(255, 255, 255, 0.788), rgba(255, 255, 255, 0.377));
+  border-radius: 5px;
+  border-bottom-left-radius: 15%;
+  
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 75% 75%, 75% 75%, 100% 85%, 0% 85%);
+}
+
+.quote-box-border {
+  position: relative;
+  top: .1rem;
+  left: 1.25rem;
+  width: 252px;
+  height: 263px;
+  padding: 50px;
+  background: linear-gradient(115deg,rgba(153, 0, 255, 0.192), rgba(28, 159, 211, 0.274));
+  border-radius: 5px;
+  border-bottom-left-radius: 15%;
   
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 75% 75%, 75% 75%, 100% 85%, 0% 85%);
 }
