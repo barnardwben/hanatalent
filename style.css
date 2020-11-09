@@ -446,7 +446,7 @@ body {
 
 .about-page-main {
   height: 100%;
-
+  margin: 0 0 10rem 0;
 }
 
 .about-main-container {
@@ -510,7 +510,7 @@ body {
   width: 380px;
   height: 450px;
   background-color: rgba(15, 15, 15, 0.322);
-  
+
   display: flex;
   text-align: center;
   justify-content: center;
@@ -698,7 +698,7 @@ body {
   width: 100%;
   height: 450px;
   background: url(images/agree.jpg) center center/cover no-repeat;
-  margin: 9.5rem 0;
+  margin: 9.5rem 0 .0rem 0;
 }
 
 .top-banner {
@@ -724,9 +724,54 @@ q {
 }
 
 /* MAIN LOWER GRID */
+.servmain-lowgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
+  margin: 0 0 0 0;
+  width: 100%;
+}
 
+.text-row {
+  color: #fff;
+  align-self: start;
+  justify-self: left;
+  text-align: left;
+  height: 360px;
+  padding: 2rem;
+}
 
+.row-divider {
+  position: relative;
+  background: #fff;
+  height: 2px;
+  left: 1.8rem;
+  width: 7rem;
+  border: none;
+  margin: 1rem 0 2.5rem 0;
+}
+
+.grfirst {
+  background: rgb(206, 61, 50);
+}
+
+.grsecond {
+  background: rgb(32, 162, 179);
+}
+.grthird {
+  background: rgb(32, 179, 130);
+}
+
+.lowgrid-header {
+  font-size: 2rem;
+  margin: 1.25rem;
+}
+
+.lowgrid-paragraph {
+  font-size: 1.35rem;
+  line-height: 2.25rem;
+  margin: 0 2rem ;
+}
 /* SERVICES FOOTER */
 
 .services-footer {
