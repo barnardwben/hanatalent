@@ -692,38 +692,31 @@ body {
   background-color: rgba(0, 0, 0, 0.247);
 }
 
-/* SERVICES BANNER */
-.servmain-banner {
-  position: relative;
-  width: 100%;
-  height: 450px;
-  background: url(images/agree.jpg) center center/cover no-repeat;
-  margin: 9.5rem 0 .0rem 0;
-}
-
-.top-banner {
-  position: relative;
-  width: 100%;
-  height: 450px;
-  background: linear-gradient(115deg,rgba(255, 72, 0, 0.466), rgba(211, 199, 28, 0.623));
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.banner-header-text {
-  font-size: 3.5rem;
-  width: 75%;
-}
-
-q {
-  position: absolute;
-  bottom: 5rem;
-  font-size: .8rem;
-}
-
 /* MAIN LOWER GRID */
+.hire-container {
+  padding: 2rem;
+  margin: 10rem 0 0rem 0 ;
+  background: rgb(255, 255, 255);
+}
+.hiring-options-header {
+  margin: 0 auto;
+  color: rgb(68, 106, 231);
+  width: 70%;
+  font-size: 2.5rem;
+}
+
+.hire-divider {
+  width: 100px;
+  border: none;
+  height: 1px;
+  background: rgb(68, 106, 231);
+}
+
+.hire-paragraph {
+  color: rgb(68, 106, 231);
+  font-weight: 400;
+}
+
 .servmain-lowgrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -752,14 +745,14 @@ q {
 }
 
 .grfirst {
-  background: rgb(206, 61, 50);
+  background: rgba(206, 60, 50, 0.589);
 }
 
 .grsecond {
-  background: rgb(32, 162, 179);
+  background:rgba(68, 106, 231, 0.712);;
 }
 .grthird {
-  background: rgb(32, 179, 130);
+  background: rgba(32, 179, 130, 0.678);
 }
 
 .lowgrid-header {
@@ -772,8 +765,78 @@ q {
   line-height: 2.25rem;
   margin: 0 2rem ;
 }
+
+/* SERVICES BANNER */
+.servmain-banner {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: url(images/agree.jpg) center center/cover no-repeat;
+  margin: 8rem 0 .0rem 0;
+}
+
+.top-banner {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  /* background: linear-gradient(115deg,rgba(255, 72, 0, 0.466), rgba(211, 199, 28, 0.623)); */
+  background: linear-gradient(115deg,rgba(153, 0, 255, 0.37), rgba(28, 159, 211, 0.404));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-header-text {
+  font-size: 3.5rem;
+  width: 75%;
+}
+
+q {
+  position: absolute;
+  bottom: 5rem;
+  font-size: .8rem;
+}
+
+/* LAST SERVICES GRID */
+.last-servgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  margin: 5rem auto 0 auto;
+  width: 80%;
+}
+
+.icons {
+  font-size: 4rem;
+}
+
+.icon-header {
+  font-size: 2rem;
+  color: rgb(19, 95, 158);
+}
+
+.icon-p {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  color: rgb(95, 94, 94);
+  width: 285px;
+  margin: 0 auto;
+}
+
+.fa-users {
+  color: rgb(104, 14, 177);
+}
+
+.fa-trophy {
+  color: rgb(190, 188, 45);
+}
+
+.fa-heart {
+  color: rgb(219, 67, 67);
+}
 /* SERVICES FOOTER */
 
 .services-footer {
-  margin-top: 25rem;
+  margin-top: 12rem;
 }

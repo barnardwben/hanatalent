@@ -66,17 +66,21 @@ const rightArr = document.querySelector('.right-arr')
 
 
 choiceOne.addEventListener('click', () => {
+  num = 0;
   updateDisplay('finacc');
 });
 
 choiceTwo.addEventListener('click', () => {
+  num = 1;
   updateDisplay('itser');
 });
 
 choiceThree.addEventListener('click', () => {
+  num = 2;
   updateDisplay('indus');
 });
 choiceFour.addEventListener('click', () => {
+  num = 3;
   updateDisplay('offad');
 });
 
