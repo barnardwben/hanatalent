@@ -61,6 +61,9 @@ const choiceOne = document.querySelector('.gi-one');
 const choiceTwo = document.querySelector('.gi-two');
 const choiceThree = document.querySelector('.gi-three');
 const choiceFour = document.querySelector('.gi-four');
+const leftArr = document.querySelector('.left-arr')
+const rightArr = document.querySelector('.right-arr')
+
 
 choiceOne.addEventListener('click', () => {
   updateDisplay('finacc');
@@ -90,3 +93,26 @@ function updateDisplay(serviceType) {
 
 // ON PAGE LOAD SHOW FINANCE 6 ACCOUNTING SERVICES HTML CONTENT
 updateDisplay('finacc');
+
+let serviceArr = ['finacc', 'itser', 'indus', 'offad'];
+
+let num = 0;
+rightArr.addEventListener('click', () => {
+  if (num >= 3) {
+    num = 3;
+
+  } else {
+    num++;
+    updateDisplay(serviceArr[num])
+  }
+})
+
+leftArr.addEventListener('click', () => {
+  if (num <= 0) {
+    num = 0;
+
+  } else {
+    num--;
+    updateDisplay(serviceArr[num])
+  }
+})

@@ -154,7 +154,7 @@ body {
   background-color:red;
 }
 /* MAIN */
-main {
+.index-main {
   position: relative;
   top: -3rem;
   margin: 60px;
@@ -546,9 +546,13 @@ main {
 
 
 /* SERVICES MAIN */
+.services-main {
+  width: 100%;
+  text-align: center;
+}
 .servicescontent {
   position: relative;
-  margin: 300px 0 0 0;
+  margin: 250px 0 0 0;
   display: none;
 }
 
@@ -562,60 +566,166 @@ main {
 
 .hr-one {
   position: absolute;
-  top: -10.5rem;
-  left: 5.25rem;
+  top: -10rem;
+  left: 8.25rem;
 }
 
 .hr-two {
   position: absolute;
-  top: -10.5rem;
-  left: 29rem;
+  top: -10rem;
+  left: 32.5rem;
 }
 
 .hr-three {
   position: absolute;
-  top: -10.5rem;
-  left: 52.5rem;
+  top: -10rem;
+  left: 56.5rem;
 }
 
 .hr-four {
   position: absolute;
-  top: -10.5rem;
-  left: 76.5rem;
+  top: -10rem;
+  left: 80.5rem;
 }
 
-.about-main-grid {
+.services-main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.quote-box {
-  position: absolute;
-  top: 3.5rem;
-  left: 45rem;
-  width: 250px;
-  height: 262.75px;
-  padding: 50px;
-  background: linear-gradient(115deg,rgba(255, 255, 255, 0.788), rgba(255, 255, 255, 0.377));
-  border-radius: 5px;
-  border-bottom-left-radius: 15%;
-  
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 75% 75%, 75% 75%, 100% 85%, 0% 85%);
+.servmain-title {
+  font-weight: 400;
+  color: rgb(68, 106, 231);
 }
 
-.quote-box-border {
+.servmain-paragraph {
+  text-align: center;
+  width: 700px;
+  font-weight: 400;
+  font-size: 1.15rem;
+  margin: 0 auto;
+  line-height: 2.2rem;
+}
+
+.services-offered {
+  font-weight: 400;
+  color: rgb(68, 133, 231);
+  margin: 5rem 0 2rem 0;
+}
+
+.ul-grid-border {
   position: relative;
-  top: .1rem;
-  left: 1.25rem;
-  width: 252px;
-  height: 263px;
-  padding: 50px;
+  left: -1rem;
+  margin: 1rem auto;
+  width: 900px;
+  padding: 3px;
   background: linear-gradient(115deg,rgba(153, 0, 255, 0.192), rgba(28, 159, 211, 0.274));
   border-radius: 5px;
-  border-bottom-left-radius: 15%;
-  
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 75% 75%, 75% 75%, 100% 85%, 0% 85%);
+  z-index: -1;
 }
+
+.ul-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+  justify-items: center;
+  margin: 0 auto;
+  width: 900px;
+  padding: 2rem 0;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.it-size {
+  width: 650px;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+.ul-grid, li {
+  line-height: 2rem;
+  margin: 0;
+}
+
+.fin-ul {
+  list-style-type: none;
+}
+
+.fin-ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgb(98, 0, 255); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/* ARROWS */
+.left-arr {
+  position: absolute;
+  left: 2rem;
+  top: 120vh;
+  padding: 1rem;
+  font-size: 5rem;
+  color: rgb(68, 106, 231);
+  cursor: pointer;
+  transition: .4s all ease-in-out;
+}
+
+.left-arr:hover {
+  background-color: rgba(0, 0, 0, 0.247);
+}
+
+.right-arr {
+  position: absolute;
+  right: 2rem;
+  top: 120vh;
+  padding: 1rem;
+  font-size: 5rem;
+  color: rgb(68, 106, 231);
+  cursor: pointer;
+  transition: .4s all ease-in-out;
+}
+
+.right-arr:hover {
+  background-color: rgba(0, 0, 0, 0.247);
+}
+
+/* SERVICES BANNER */
+.servmain-banner {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: url(images/agree.jpg) center center/cover no-repeat;
+  margin: 9.5rem 0;
+}
+
+.top-banner {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: linear-gradient(115deg,rgba(255, 72, 0, 0.466), rgba(211, 199, 28, 0.623));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-header-text {
+  font-size: 3.5rem;
+  width: 75%;
+}
+
+q {
+  position: absolute;
+  bottom: 5rem;
+  font-size: .8rem;
+}
+
+/* MAIN LOWER GRID */
+
+
 
 /* SERVICES FOOTER */
 
