@@ -840,3 +840,122 @@ q {
 .services-footer {
   margin-top: 12rem;
 }
+
+/* CONTACT PAGE */
+.pattern-two {
+  position: absolute;
+}
+
+.emicon {
+  position: absolute;
+  top: -1rem;
+  left: 15rem;
+  width: 80%;
+}
+
+.contact-page-greeting {
+  position: absolute;
+  width: 360px;
+  padding: 1rem 2.5rem 2rem 2.5rem;
+  top: 35vh;
+  left: 5rem;
+  border-radius: 10px;
+  background: rgba(152, 113, 184, 0.932);
+  color: rgb(243, 243, 243);
+}
+
+.contact-page-greeting h1 {
+  font-size: 3rem;
+}
+
+.contact-page-greeting h3 {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.or-container {
+  position: absolute;
+  width: 400px;
+  font-size: 2rem;
+  padding: 1rem 3rem 3rem 3rem;
+  top: 35vh;
+  left: 40rem;
+  color: #fff;
+}
+
+/* CONTACT FORM */
+#contact-form {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 17vh;
+  text-align: center;
+  margin: 0 6rem 13rem 0;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0);
+  padding: 0 70px 20px 70px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  /* box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.185); */
+}
+
+.form-header {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.form-sec-header  {
+  color: #fff;
+  position: relative;
+  top: -1.5rem;
+}
+
+input {
+  width: 25vw;
+  padding: .75rem;
+  margin: 15px;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  transition: .3s all ease-in-out;
+}
+
+.full-name {
+  width: 10.5vw;
+}
+
+textarea {
+  width: 25vw;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  outline: none;
+
+  font-family: brother-1816,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 15px;
+  transition: .3s all ease-in-out;
+}
+
+.sbm-btn {
+  font-size: 1rem;
+  padding: .75rem 5rem;
+  background: rgba(111, 199, 214, 0.8);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  transition: .3s all ease-in-out;
+
+  background: linear-gradient(45deg,rgb(64, 185, 201),rgb(78, 129, 172), rgb(152, 113, 184));
+  color: #fff;
+   cursor: pointer;
+   /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.438), inset 5px 5px 15px rgba(0, 0, 0, 0.438); */
+}
+
+.sbm-btn:hover {
+  opacity: .8;
+}
