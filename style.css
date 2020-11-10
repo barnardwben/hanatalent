@@ -959,3 +959,102 @@ textarea {
 .sbm-btn:hover {
   opacity: .8;
 }
+
+
+/* EXTRA CONTACT ON EVERY PAGE */
+.pencil-logo {
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  font-size: 2rem;
+  background: rgb(19, 200, 224);
+  padding: .6rem;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.exit-icon {
+  position: fixed;
+  z-index: 2;
+  top: 11.5rem;
+  right: 2.2rem;
+  font-size: 2rem;
+  background: rgb(197, 47, 47);
+  padding: .6rem .85rem;
+  color: #fff;
+  border-radius: 50%;
+}
+
+#contact-form-everypage {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  bottom: 1rem;
+  right: 0rem;
+  padding: 0;
+  border-radius: 10px;
+  text-align: center;
+  background: rgba(12, 106, 168, 0.9);
+  margin: 0 2rem .5rem 0;
+  width: 350px;
+  height: 520px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.486);
+}
+
+
+.form-container-everypage {
+  padding: 0;
+  border-radius: 10px;
+}
+
+.form-header-everypage {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 200px;
+  margin: 1rem auto 0 auto;
+}
+
+.form-sec-header-everypage  {
+  color: #fff;
+  position: relative;
+  font-size: 1rem;
+  width: 200px;
+  margin: .5rem auto 0 auto;
+  line-height: 1rem;
+}
+
+.mini-input {
+  width: 12.5rem;
+  height: .8rem;
+  margin: .5rem;
+}
+
+.msg-mini-input {
+  width: 12.5rem;
+}
+
+.sbm-btn-everypage {
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  background: rgba(111, 199, 214, 0.8);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  transition: .3s all ease-in-out;
+
+  background: linear-gradient(45deg,rgb(64, 185, 201),rgb(78, 129, 172), rgb(152, 113, 184));
+  color: #fff;
+   cursor: pointer;
+   /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.438), inset 5px 5px 15px rgba(0, 0, 0, 0.438); */
+}
+
+.sbm-btn-everypage:hover {
+  opacity: .8;
+}
+
+.hide {
+  display: none;
+}

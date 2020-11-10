@@ -9,6 +9,23 @@ let secondText = document.querySelector('.slide-text-two');
 let thirdImage = document.querySelector('.slide-image-three');
 let thirdText = document.querySelector('.slide-text-three');
 
+// DOM VARIABLES FOR MINI CONTACT FORM - EVERY PAGE
+let pencilBubble = document.querySelector('.pencil-bubble');
+let exitBubble = document.querySelector('.exit-bubble');
+let miniForm = document.querySelector('.extra-contact')
+
+pencilBubble.addEventListener('click', () => {
+  pencilBubble.classList.add('hide');
+  exitBubble.classList.remove('hide');
+  miniForm.classList.remove('hide');
+})
+
+exitBubble.addEventListener('click', () => {
+  exitBubble.classList.add('hide');
+  pencilBubble.classList.remove('hide');
+  miniForm.classList.add('hide');
+})
+
 window.addEventListener("scroll", () => {
   // NAVBAR SCROLL EVENT
   window.scrollY > 35 ? navbar.classList.add('darken') : navbar.classList.remove('darken');
