@@ -1,6 +1,8 @@
 // DOM VARIABLES
 // NAVBAR ALL HTML FILES
-let navbar = document.querySelector('.navbar')
+let navbar = document.querySelector('.navbar');
+let hamburger = document.querySelector('.hamburger');
+let linkDisplay = document.querySelector('.link-display');
 // DOM VARIABLES INDEX HTML FILE 
 let firstImage = document.querySelector('.slide-image-one');
 let firstText = document.querySelector('.slide-text-one');
@@ -8,13 +10,18 @@ let secondImage = document.querySelector('.slide-image-two');
 let secondText = document.querySelector('.slide-text-two');
 let thirdImage = document.querySelector('.slide-image-three');
 let thirdText = document.querySelector('.slide-text-three');
-// NAVBAR CONTACT PAGE
-let contactNav = document.querySelector('.contacts-nav');
+
 
 // DOM VARIABLES FOR MINI CONTACT FORM - EVERY PAGE
 let pencilBubble = document.querySelector('.pencil-bubble');
 let exitBubble = document.querySelector('.exit-bubble');
 let miniForm = document.querySelector('.extra-contact')
+
+
+// EVENT LISTENERS
+hamburger.addEventListener('click', () => {
+  linkDisplay.classList.contains('hide') ? linkDisplay.classList.remove('hide') : linkDisplay.classList.add('hide');
+})
 
 pencilBubble.addEventListener('click', () => {
   pencilBubble.classList.add('hide');
