@@ -150,6 +150,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: .3s all ease-in-out;
 }
 
 .jumbotron {
@@ -341,37 +342,22 @@ body {
   }
  }
 
- @media only screen and (max-width: 605px) {
- 
-  .jumbotron {
-    height: 470px;
-  }
-
-  .header-text-container {
-    width: 380px;
-  }
-
-  .slogan {
-    font-size: 3rem;
-  }
-
-  .slogan-paragraph {
-    font-size: 1rem;
-  }
- }
-
  @media only screen and (max-width: 495px) {
- 
+  .header-background {
+    height: 100vh;
+  }
+
   .jumbotron {
-    height: 360px;
+    height: 400px;
   }
 
   .header-text-container {
-    width: 355px;
+    width: 255px;
   }
 
   .slogan {
-    font-size: 2.35rem;
+    font-size: 1.6rem;
+    margin: 1.5rem 0 2rem 0;
   }
 
   .slogan-paragraph {
