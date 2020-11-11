@@ -8,6 +8,8 @@ let secondImage = document.querySelector('.slide-image-two');
 let secondText = document.querySelector('.slide-text-two');
 let thirdImage = document.querySelector('.slide-image-three');
 let thirdText = document.querySelector('.slide-text-three');
+// NAVBAR CONTACT PAGE
+let contactNav = document.querySelector('.contacts-nav');
 
 // DOM VARIABLES FOR MINI CONTACT FORM - EVERY PAGE
 let pencilBubble = document.querySelector('.pencil-bubble');
