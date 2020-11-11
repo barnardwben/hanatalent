@@ -909,7 +909,7 @@ body {
 
 @media only screen and (max-width: 495px) {
   .lower-grid {
-    width: 320px;
+    width: 100%;
   }
   .lower-header {
     margin: 2.5rem 0;
