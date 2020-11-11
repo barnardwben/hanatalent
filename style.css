@@ -135,10 +135,25 @@ body {
 }
 
 @media only screen and (max-width: 525px) {
+
+  /* .navbar {
+    width: 80%;
+  } */
+
  .link-display {
    width: 100%;
    margin: 0 auto;
  }
+
+ 
+ .ht-logo {
+  width: 10rem;
+}
+
+.left-menu {
+  margin-left: 2rem;
+}
+
 }
 
 
@@ -343,6 +358,7 @@ body {
  }
 
  @media only screen and (max-width: 495px) {
+
   .header-background {
     height: 100vh;
   }
@@ -596,13 +612,13 @@ body {
 
 @media only screen and (max-width: 505px) {
   .job-data-image {
-    width: 400px;
+    width: 100%;
     margin: 0 0 1rem 0;
   }
 
   .text-grid {
     top: -8rem;
-    width: 320px;
+    width: 280px;
   }
 
 
@@ -893,7 +909,7 @@ body {
 
 @media only screen and (max-width: 495px) {
   .lower-grid {
-    width: 280px;
+    width: 320px;
   }
   .lower-header {
     margin: 2.5rem 0;
