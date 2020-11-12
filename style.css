@@ -372,10 +372,12 @@ body {
 
   .jumbotron {
     height: 400px;
+    margin: 3rem 0 0 0;
   }
 
   .header-text-container {
     width: 255px;
+    left: -1.5rem;
   }
 
   .slogan {
