@@ -1540,24 +1540,22 @@ body {
 
   .hr-one {
     top: -70.5rem;
-    left: 40.5%;
-    margin: 0 auto;
-    padding: 0 auto;
+    left: 39.5%;
   }
   
   .hr-two {
     top: -50.5rem;
-    left: 40.5%;
+    left: 39.5%;
   }
   
   .hr-three {
     top: -30.5rem;
-    left: 40%;
+    left: 39%;
   }
   
   .hr-four {
     top: -10.5rem;
-    left: 40%;
+    left: 39%;
   }
 }
 
