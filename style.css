@@ -1794,13 +1794,13 @@ body {
   .left-arr {
     top: 270vh;
     font-size: 3.5rem;
-    left: 1rem;
+    left: .5rem;
   }
 
   .right-arr {
     top: 270vh;
     font-size: 3.5rem;
-    
+    right: .5rem;
   }
 }
 
