@@ -1540,22 +1540,24 @@ body {
 
   .hr-one {
     top: -70.5rem;
-    left: 41.5%;
+    left: 40.5%;
+    margin: 0 auto;
+    padding: 0 auto;
   }
   
   .hr-two {
     top: -50.5rem;
-    left: 41.5%;
+    left: 40.5%;
   }
   
   .hr-three {
     top: -30.5rem;
-    left: 41%;
+    left: 40%;
   }
   
   .hr-four {
     top: -10.5rem;
-    left: 41%;
+    left: 40%;
   }
 }
 
@@ -1719,7 +1721,7 @@ body {
 
 
 .ul-grid-border {
-  left: 0rem;
+  left: -1rem;
   margin: 1rem auto;
   width: 280px;
   
@@ -1836,17 +1838,17 @@ body {
     margin: 0 auto;
     font-size: 2.5rem;
     position: relative;
-    left: -1rem;
+    left: 0rem;
   }
   
   .hire-divider {
     position: relative;
-    left: -1rem;
+    left: 0rem;
   }
   
   .hire-paragraph {
     position: relative;
-    left: -1rem;
+    left: 0rem;
   }
 }
 
