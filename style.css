@@ -99,7 +99,7 @@ body {
   /* height: 100%; */
   width: 100%;
   text-align: center;
-  padding: 1.2rem 0;
+  padding: 1.2rem 1rem;
   text-decoration: none;
   transition: .3s all ease-in-out;
   color: rgba(255, 255, 255, 0.719);
