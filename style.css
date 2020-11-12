@@ -1539,23 +1539,23 @@ body {
   }
 
   .hr-one {
-    top: -76.5rem;
-    left: 32.5%;
+    top: -70.5rem;
+    left: 41.5%;
   }
   
   .hr-two {
-    top: -56.5rem;
-    left: 32.5%;
+    top: -50.5rem;
+    left: 41.5%;
   }
   
   .hr-three {
-    top: -36.5rem;
-    left: 32.5%;
+    top: -30.5rem;
+    left: 41%;
   }
   
   .hr-four {
-    top: -16.5rem;
-    left: 32.5%;
+    top: -10.5rem;
+    left: 41%;
   }
 }
 
@@ -1697,13 +1697,13 @@ body {
     width: 220px;
     margin: 1rem auto;
     position: relative;
-    left: -1rem;
+    left: 0rem;
   }
   
   
   .services-offered {
     position: relative;
-    left: -1rem;
+    left: 0rem;
     margin: 3rem auto 2rem auto;
     font-size: 1.2rem;
     width: 220px;
@@ -1714,20 +1714,20 @@ body {
   font-size: 1rem;
   margin: 1rem auto;
   position: relative;
-    left: -1rem;
+  left: 0rem;
 }
 
 
 .ul-grid-border {
-  left: -2rem;
+  left: 0rem;
   margin: 1rem auto;
-  width: 220px;
+  width: 280px;
   
 }
 
 .ul-grid {
   font-size: .8rem;
-  width: 220px;
+  width: 280px;
 }
 }
 
@@ -2039,7 +2039,7 @@ body {
   }
   .lowgrid-paragraph {
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1.75rem;
   }
 
   .grfirst {
@@ -2073,6 +2073,7 @@ body {
     grid-column: 1;
     grid-row: 1;
     width: 295px;
+    margin: 0 auto;
   }
   
   .imgtwo {
@@ -2080,7 +2081,8 @@ body {
     grid-row: 3;
     width: 295px;
     position: relative;
-    top: -7rem;
+    top: -9rem;
+    margin: 0 auto;
   }
   
   .imgthree {
@@ -2089,19 +2091,21 @@ body {
     width: 295px;
     position: relative;
     top: -18rem;
+    margin: 0 auto;
   }
 
   .imi {
-    width: 250px;
+    width: 295px;
+    height: 270px;
     margin: 0 auto;
   }
   
   .imt {
-    width: 250px;
+    width: 280px;
   }
   
   .imth {
-    width: 250px; 
+    width: 280px; 
     height: 220px;
   }
 }
@@ -2177,8 +2181,8 @@ q {
   }
 
   .banner-header-text {
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1.75rem;
+    line-height: 2.9rem;
     width: 75%;
   }
 
@@ -2234,8 +2238,8 @@ q {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem 0;
-    margin: 5rem 0;
-    width: 90%;
+    margin: 5rem auto;
+    width: 100%;
   }
 
   
@@ -2248,8 +2252,8 @@ q {
   line-height: 2rem;
   font-size: .8rem;
   color: rgb(95, 94, 94);
-  width: 220px;
-  margin: 0 auto;
+  width: 300px;
+  margin: 0 2rem;
 }
 }
 /* SERVICES FOOTER */
