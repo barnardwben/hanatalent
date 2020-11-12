@@ -38,7 +38,7 @@ exitBubble.addEventListener('click', () => {
 window.addEventListener("scroll", () => {
   // NAVBAR SCROLL EVENT
   window.scrollY > 35 ? navbar.classList.add('darken') : navbar.classList.remove('darken');
-  if (window.location.href === 'https://hanatestsite.netlify.app/' || window.location.href === 'http://127.0.0.1:5500/index.html') {
+  if (window.location.href === 'https://hanatestsite.netlify.app/index.html' || window.location.href === 'http://127.0.0.1:5500/index.html') {
     // GRID SET ONE ANIMATION
     if (window.scrollY > 500) {
       firstImage.classList.add('slider-from-left');
