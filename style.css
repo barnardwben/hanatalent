@@ -1525,11 +1525,11 @@ body {
 
   .absolute-grid-item {
     height: 320px;
-    width: 350px;
+    width: 360px;
   }
 
   .service-grid-image {
-    width: 350px;
+    width: 360px;
     height: 220px;
     margin: 0 0 6rem 0;
   }
@@ -2046,7 +2046,7 @@ body {
     background: rgba(206, 60, 50, 0.589);
     grid-column: 1;
     grid-row: 2;
-    width: 210px;
+    width: 360px;
     margin: 0;
     position: relative;
     top: -11rem;
@@ -2056,7 +2056,7 @@ body {
     background:rgba(68, 106, 231, 0.712);
     grid-column: 1;
     grid-row: 4;
-    width: 210px;
+    width: 360px;
     position: relative;
     top: -20rem;
   }
@@ -2064,7 +2064,7 @@ body {
     background: rgba(32, 179, 130, 0.678);
     grid-column: 1;
     grid-row: 6;
-    width: 210px;
+    width: 360px;
     position: relative;
     top: -31rem;
   }
@@ -2072,13 +2072,13 @@ body {
   .imgone {
     grid-column: 1;
     grid-row: 1;
-    width: 210px;
+    width: 360px;
   }
   
   .imgtwo {
     grid-column: 1;
     grid-row: 3;
-    width: 210px;
+    width: 360px;
     position: relative;
     top: -7rem;
   }
@@ -2086,7 +2086,7 @@ body {
   .imgthree {
     grid-column: 1;
     grid-row: 5;
-    width: 210px;
+    width: 360px;
     position: relative;
     top: -18rem;
   }
@@ -2168,12 +2168,12 @@ q {
 @media only screen and (max-width: 495px) {
 
   .servmain-banner {
-    width: 250px;
+    width: 360px;
 
   }
   
   .top-banner {
-    width: 250px;
+    width: 360px;
   }
 
   .banner-header-text {
