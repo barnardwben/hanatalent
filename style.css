@@ -1062,9 +1062,16 @@ body {
 }
 }
 
-/* @media only screen and (max-width: 495px) {
+@media only screen and (max-width: 495px) {
+  .footer {
+    width: 495px;
+  }
+
+  .footer-bg-layer {
+    width: 495px;
+  }
  
-} */
+}
 
 
 /* ABOUT PAGE */
