@@ -2573,13 +2573,14 @@ q {
 
 @media only screen and (max-width: 556px) {
   .contact-page-greeting {
-    width: 300px;
+    width: 250px;
     height: 300px;
     margin: 0rem auto;
     position: relative;
     grid-row: 2;
     left: 0;
   }
+
       
   .contact-page-greeting h1 {
     font-size: 2rem;
@@ -2590,9 +2591,13 @@ q {
   }
       
   .emicon {
-    width: 150%;
-    top: 6rem;
-    left: -10rem;
+    width: 300px;
+    top: 16rem;
+    left: 4rem;
+  }
+
+  .form-container {
+    padding: 0rem;
   }
 }
 
@@ -2739,8 +2744,9 @@ textarea {
 
 @media only screen and (max-width: 506px) {
   #contact-form {
-    margin: 0 0rem 0rem 0;
+    margin: 0;
     right: 0rem;
+    padding: 0px;
   }
 
   .form-header {
