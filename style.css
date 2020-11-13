@@ -1532,11 +1532,11 @@ body {
 
   .absolute-grid-item {
     height: 320px;
-    width: 412px;
+    width: 426px;
   }
 
   .service-grid-image {
-    width: 412px;
+    width: 426px;
     height: 220px;
     margin: 0 0 6rem 0;
   }
@@ -2053,7 +2053,7 @@ body {
     background: rgba(206, 60, 50, 0.589);
     grid-column: 1;
     grid-row: 2;
-    width: 360px;
+    width: 365px;
     margin: 0;
     position: relative;
     top: -11rem;
@@ -2063,7 +2063,7 @@ body {
     background:rgba(68, 106, 231, 0.712);
     grid-column: 1;
     grid-row: 4;
-    width: 360px;
+    width: 365px;
     position: relative;
     top: -20rem;
   }
@@ -2071,7 +2071,7 @@ body {
     background: rgba(32, 179, 130, 0.678);
     grid-column: 1;
     grid-row: 6;
-    width: 360px;
+    width: 365px;
     position: relative;
     top: -31rem;
   }
@@ -2179,12 +2179,12 @@ q {
 @media only screen and (max-width: 495px) {
 
   .servmain-banner {
-    width: 416px;
+    width: 426px;
 
   }
   
   .top-banner {
-    width: 416px;
+    width: 426px;
   }
 
   .banner-header-text {
