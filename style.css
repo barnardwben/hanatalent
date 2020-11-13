@@ -2825,6 +2825,35 @@ textarea {
   } 
 }
 
+@media only screen and (max-width: 496px) {
+  #contact-form {
+    margin: 0 auto;
+    right: 0rem;
+    padding: 0px;
+    width: 320px;
+  }
+
+  .form-header {
+    font-size: 2.5rem;
+  }
+  
+  .form-sec-header  {
+    width: 100%;
+    margin: 0 auto;
+  }
+  input {
+    width: 70vw;
+  }
+
+  .full-name {
+    width: 70vw;
+  }
+
+  textarea {
+    width: 75vw;
+  } 
+}
+
 /* EXTRA CONTACT ON EVERY PAGE */
 .pencil-logo {
   position: fixed;
