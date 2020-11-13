@@ -2274,10 +2274,6 @@ q {
   transition: .3s all ease-in-out;
 }
 
-.darkentwo {
-  background: linear-gradient(115deg,rgb(104, 14, 177, .5), rgb(36, 141, 211, .9));
-  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.438);
-}
 
 .pattern-two {
   position: absolute;
@@ -2299,6 +2295,7 @@ q {
   border-radius: 10px;
   background: rgba(152, 113, 184, 0.932);
   color: rgb(243, 243, 243);
+  transition: .3s all ease-in-out;
 }
 
 .contact-page-greeting h1 {
@@ -2311,14 +2308,281 @@ q {
   font-size: 1.5rem;
 }
 
-.or-container {
-  position: absolute;
-  width: 400px;
-  font-size: 2rem;
-  padding: 1rem 3rem 3rem 3rem;
+@media only screen and (max-width: 1256px) {
+ 
+.contact-page-greeting {
+  width: 300px;
+  padding: 1rem 2.5rem 2rem 2.5rem;
   top: 35vh;
-  left: 40rem;
-  color: #fff;
+  left: 5rem;
+}
+
+.contact-page-greeting h1 {
+  font-size: 2rem;
+}
+
+.contact-page-greeting h3 {
+  font-size: 1rem;
+}
+
+.emicon {
+  top: 3rem;
+  left: 15rem;
+}
+}
+
+@media only screen and (max-width: 1156px) {
+ 
+  .contact-page-greeting {
+    width: 250px;
+    left: 4rem;
+  }
+  
+  .emicon {
+    top: 3rem;
+    left: 15rem;
+  }
+  }
+
+  @media only screen and (max-width: 1156px) {
+ 
+    .contact-page-greeting {
+      width: 250px;
+      left: 4rem;
+    }
+    
+    .contact-page-greeting h1 {
+      font-size: 2rem;
+    }
+    
+    .contact-page-greeting h3 {
+      font-size: 1rem;
+    }
+    
+    .emicon {
+      top: 3rem;
+      left: 15rem;
+    }
+    }
+
+     @media only screen and (max-width: 1156px) {
+ 
+    .contact-page-greeting {
+      width: 250px;
+      left: 4rem;
+    }
+    
+    .contact-page-greeting h1 {
+      font-size: 2rem;
+    }
+    
+    .contact-page-greeting h3 {
+      font-size: 1rem;
+    }
+    
+    .emicon {
+      top: 3rem;
+      left: 15rem;
+    }
+    }
+   @media only screen and (max-width: 1156px) {
+ 
+    .contact-page-greeting {
+      width: 250px;
+      left: 4rem;
+    }
+    
+    .contact-page-greeting h1 {
+      font-size: 2rem;
+    }
+    
+    .contact-page-greeting h3 {
+      font-size: 1rem;
+    }
+    
+    .emicon {
+      top: 3rem;
+      left: 15rem;
+    }
+
+    }
+    @media only screen and (max-width: 1056px) {
+ 
+      .contact-page-greeting {
+        width: 220px;
+        left: 4rem;
+      }
+      
+      .emicon {
+        width: 95%;
+        top: 4rem;
+        left: 10rem;
+      }
+      }    
+
+   @media only screen and (max-width: 956px) {
+ 
+    .contact-page-greeting {
+      width: 220px;
+      left: 3rem;
+    }
+        
+    .contact-page-greeting h1 {
+      font-size: 2rem;
+    }
+        
+    .contact-page-greeting h3 {
+      font-size: 1rem;
+    }
+        
+    .emicon {
+    width: 95%;
+    top: 4rem;
+    left: 10rem;
+    }
+} 
+
+@media only screen and (max-width: 856px) {
+ 
+  .contact-page-greeting {
+    width: 200px;
+    left: 3rem;
+  }
+      
+  .contact-page-greeting h1 {
+    font-size: 1.7rem;
+  }
+      
+  .contact-page-greeting h3 {
+    font-size: 1rem;
+  }
+      
+  .emicon {
+    width: 95%;
+    top: 4rem;
+    left: 10rem;
+  }
+} 
+
+@media only screen and (max-width: 806px) {
+ 
+  .contacts-right-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin: 0 0 5rem 0;
+  }
+
+  .contact-page-greeting {
+    width: 400px;
+    height: 300px;
+    margin: 0rem auto;
+    position: relative;
+    grid-row: 2;
+    left: 0;
+  }
+      
+  .contact-page-greeting h1 {
+    font-size: 2.4rem;
+  }
+      
+  .contact-page-greeting h3 {
+    font-size: 1.4rem;
+  }
+      
+  .emicon {
+    width: 950px;
+    top: 4rem;
+    left: -9rem;
+  }
+}
+
+@media only screen and (max-width: 806px) {
+ 
+  .contacts-right-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin: 0 0 5rem 0;
+  }
+
+  .contact-page-greeting {
+    width: 400px;
+    height: 300px;
+    margin: 0rem auto;
+    position: relative;
+    grid-row: 2;
+    left: 0;
+  }
+      
+  .contact-page-greeting h1 {
+    font-size: 2.4rem;
+  }
+      
+  .contact-page-greeting h3 {
+    font-size: 1.4rem;
+  }
+      
+  .emicon {
+    width: 150%;
+    top: 8vh;
+    left: -15rem;
+  }
+}
+
+@media only screen and (max-width: 656px) {
+ 
+  
+
+  .contact-page-greeting {
+    width: 300px;
+    height: 300px;
+  }
+      
+  .contact-page-greeting h1 {
+    font-size: 2.4rem;
+  }
+      
+  .contact-page-greeting h3 {
+    font-size: 1.4rem;
+  }
+      
+  .emicon {
+    width: 950px;
+    top: 4rem;
+    left: -13rem;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .contact-page-greeting {
+    width: 300px;
+    height: 300px;
+    margin: 0rem auto;
+    position: relative;
+    grid-row: 2;
+    left: 0;
+  }
+      
+  .contact-page-greeting h1 {
+    font-size: 2rem;
+  }
+      
+  .contact-page-greeting h3 {
+    font-size: 1rem;
+  }
+      
+  .emicon {
+    width: 950px;
+    top: 4rem;
+    left: -13rem;
+  }
 }
 
 /* CONTACT FORM */
@@ -2329,6 +2593,7 @@ q {
   top: 17vh;
   text-align: center;
   margin: 0 6rem 13rem 0;
+  transition: .3s all ease-in-out;
 }
 
 .form-container {
@@ -2397,6 +2662,69 @@ textarea {
   opacity: .8;
 }
 
+
+@media only screen and (max-width: 1256px) {
+  #contact-form {
+    margin: 0 1rem 13rem 0;
+  }
+  }
+
+  @media only screen and (max-width: 1156px) {
+    .form-header {
+      font-size: 2.5rem;
+    }
+    
+    .form-sec-header  {
+      width: 450px;
+      margin: 0 auto;
+    }
+    input {
+      width: 35vw;
+    }
+
+    .full-name {
+      width: 15.5vw;
+    }
+
+    textarea {
+      width: 35vw;
+    } 
+}
+
+@media only screen and (max-width: 956px) {
+  #contact-form {
+    margin: 0 0rem 13rem 0;
+    right: -3rem;
+  }
+}
+
+
+@media only screen and (max-width: 806px) {
+  #contact-form {
+    margin: 0 0rem 0rem 0;
+    right: 0rem;
+  }
+
+  .form-header {
+    font-size: 2.5rem;
+  }
+  
+  .form-sec-header  {
+    width: 450px;
+    margin: 0 auto;
+  }
+  input {
+    width: 50vw;
+  }
+
+  .full-name {
+    width: 21.5vw;
+  }
+
+  textarea {
+    width: 50vw;
+  } 
+}
 
 /* EXTRA CONTACT ON EVERY PAGE */
 .pencil-logo {
