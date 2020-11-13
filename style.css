@@ -2279,6 +2279,10 @@ q {
   position: absolute;
 }
 
+.pattern-three {
+  display: none;
+}
+
 .emicon {
   position: absolute;
   top: -1rem;
@@ -2537,8 +2541,15 @@ q {
 }
 
 @media only screen and (max-width: 656px) {
- 
-  
+ .pattern-two{
+   display: none;
+ }
+  .pattern-three {
+    position: absolute;
+    width: 100%;
+    top: 0vh;
+    display: inline;
+  }
 
   .contact-page-greeting {
     width: 300px;
