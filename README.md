@@ -1,4 +1,4 @@
-# hanatalent
+# Hana Talent
 This is the website of Hana Talent Staffing Agency, built with HTML, CSS(flexbox, and grid), and JavaScript. The entire site is responsive for laptops, tablets, smaller devices, & mobile. What I gained from this project was an immense amount of UI design practice, familiarity with Adobe Illustrator, and Working with a client to exceed their expectations.
 
 This project took me around ten days to come up with the design, develop, and do the entire content writing on all pages. 
