@@ -1,117 +1,124 @@
 // DOM VARIABLES
 // NAVBAR ALL HTML FILES
-let navbar = document.querySelector('.navbar');
-let hamburger = document.querySelector('.hamburger');
-let linkDisplay = document.querySelector('.link-display');
-// DOM VARIABLES INDEX HTML FILE 
-let firstImage = document.querySelector('.slide-image-one');
-let firstText = document.querySelector('.slide-text-one');
-let secondImage = document.querySelector('.slide-image-two');
-let secondText = document.querySelector('.slide-text-two');
-let thirdImage = document.querySelector('.slide-image-three');
-let thirdText = document.querySelector('.slide-text-three');
-
+let navbar = document.querySelector(".navbar");
+let hamburger = document.querySelector(".hamburger");
+let linkDisplay = document.querySelector(".link-display");
+// DOM VARIABLES INDEX HTML FILE
+let firstImage = document.querySelector(".slide-image-one");
+let firstText = document.querySelector(".slide-text-one");
+let secondImage = document.querySelector(".slide-image-two");
+let secondText = document.querySelector(".slide-text-two");
+let thirdImage = document.querySelector(".slide-image-three");
+let thirdText = document.querySelector(".slide-text-three");
 
 // DOM VARIABLES FOR MINI CONTACT FORM - EVERY PAGE
-let pencilBubble = document.querySelector('.pencil-bubble');
-let exitBubble = document.querySelector('.exit-bubble');
-let miniForm = document.querySelector('.extra-contact')
-
+let pencilBubble = document.querySelector(".pencil-bubble");
+let exitBubble = document.querySelector(".exit-bubble");
+let miniForm = document.querySelector(".extra-contact");
 
 // EVENT LISTENERS
-hamburger.addEventListener('click', () => {
-  linkDisplay.classList.contains('hide') ? linkDisplay.classList.remove('hide') : linkDisplay.classList.add('hide');
-})
+hamburger.addEventListener("click", () => {
+  linkDisplay.classList.contains("hide")
+    ? linkDisplay.classList.remove("hide")
+    : linkDisplay.classList.add("hide");
+});
 
-pencilBubble.addEventListener('click', () => {
-  pencilBubble.classList.add('hide');
-  exitBubble.classList.remove('hide');
-  miniForm.classList.remove('hide');
-})
+pencilBubble.addEventListener("click", () => {
+  pencilBubble.classList.add("hide");
+  exitBubble.classList.remove("hide");
+  miniForm.classList.remove("hide");
+});
 
-exitBubble.addEventListener('click', () => {
-  exitBubble.classList.add('hide');
-  pencilBubble.classList.remove('hide');
-  miniForm.classList.add('hide');
-})
+exitBubble.addEventListener("click", () => {
+  exitBubble.classList.add("hide");
+  pencilBubble.classList.remove("hide");
+  miniForm.classList.add("hide");
+});
 
 window.addEventListener("scroll", () => {
   // NAVBAR SCROLL EVENT
-  window.scrollY > 35 ? navbar.classList.add('darken') : navbar.classList.remove('darken');
-  if (window.location.href === 'https://hanatestsite.netlify.app/index.html' || window.location.href === 'http://127.0.0.1:5500/index.html' || window.location.href === 'https://hanatestsite.netlify.app/') {
+  window.scrollY > 35
+    ? navbar.classList.add("darken")
+    : navbar.classList.remove("darken");
+  if (
+    window.location.href === "https://hanatestsite.netlify.app/index.html" ||
+    window.location.href === "http://127.0.0.1:5500/index.html" ||
+    window.location.href === "https://hanatestsite.netlify.app/"
+  ) {
     // GRID SET ONE ANIMATION
     if (window.scrollY > 500) {
-      firstImage.classList.add('slider-from-left');
-      firstImage.classList.remove('opacity');
-      firstText.classList.add('slider-from-right');
-      firstText.classList.remove('opacity');
+      firstImage.classList.add("slider-from-left");
+      firstImage.classList.remove("opacity");
+      firstText.classList.add("slider-from-right");
+      firstText.classList.remove("opacity");
     } else if (window.scrollY < 20) {
-      firstImage.classList.remove('slider-from-left');
-      firstImage.classList.add('opacity');
-      firstText.classList.remove('slider-from-right');
-      firstText.classList.add('opacity');
+      firstImage.classList.remove("slider-from-left");
+      firstImage.classList.add("opacity");
+      firstText.classList.remove("slider-from-right");
+      firstText.classList.add("opacity");
     }
 
     // GRID SET TWO ANIMATION
     if (window.scrollY > 1000) {
-      secondImage.classList.add('slider-from-right');
-      secondImage.classList.remove('opacity');
-      secondText.classList.add('slider-from-left');
-      secondText.classList.remove('opacity');
+      secondImage.classList.add("slider-from-right");
+      secondImage.classList.remove("opacity");
+      secondText.classList.add("slider-from-left");
+      secondText.classList.remove("opacity");
     } else if (window.scrollY < 20) {
-      secondImage.classList.remove('slider-from-right');
-      secondImage.classList.add('opacity');
-      secondText.classList.remove('slider-from-left');
-      secondText.classList.add('opacity');
+      secondImage.classList.remove("slider-from-right");
+      secondImage.classList.add("opacity");
+      secondText.classList.remove("slider-from-left");
+      secondText.classList.add("opacity");
     }
 
     // GRID SET THREE ANIMATION
     if (window.scrollY > 1700) {
-      thirdImage.classList.add('slider-from-left');
-      thirdImage.classList.remove('opacity');
-      thirdText.classList.add('slider-from-right');
-      thirdText.classList.remove('opacity');
+      thirdImage.classList.add("slider-from-left");
+      thirdImage.classList.remove("opacity");
+      thirdText.classList.add("slider-from-right");
+      thirdText.classList.remove("opacity");
     } else if (window.scrollY < 20) {
-      thirdImage.classList.remove('slider-from-left');
-      thirdImage.classList.add('opacity');
-      thirdText.classList.remove('slider-from-right');
-      thirdText.classList.add('opacity');
+      thirdImage.classList.remove("slider-from-left");
+      thirdImage.classList.add("opacity");
+      thirdText.classList.remove("slider-from-right");
+      thirdText.classList.add("opacity");
     }
   }
-
-
-
-})
+});
 
 // OUR SERVICES HTML DOM VARIABLES
-const mainSection = document.querySelector('.services-main');
-const choiceOne = document.querySelector('.gi-one');
-const choiceTwo = document.querySelector('.gi-two');
-const choiceThree = document.querySelector('.gi-three');
-const choiceFour = document.querySelector('.gi-four');
-const leftArr = document.querySelector('.left-arr')
-const rightArr = document.querySelector('.right-arr')
+const mainSection = document.querySelector(".services-main");
+const choiceOne = document.querySelector(".gi-one");
+const choiceTwo = document.querySelector(".gi-two");
+const choiceThree = document.querySelector(".gi-three");
+const choiceFour = document.querySelector(".gi-four");
+const leftArr = document.querySelector(".left-arr");
+const rightArr = document.querySelector(".right-arr");
 
-if (window.location.href === 'http://127.0.0.1:5500/ourfocus.html' || window.location.href === 'https://hanatestsite.netlify.app/ourfocus.html' || window.location.href === 'http://127.0.0.1:5500/ourfocus.html#here' || window.location.href === 'https://hanatestsite.netlify.app/ourfocus.html#here') {
-  choiceOne.addEventListener('click', () => {
+if (
+  window.location.href === "http://127.0.0.1:5500/ourfocus.html" ||
+  window.location.href === "https://hanatestsite.netlify.app/ourfocus.html" ||
+  window.location.href === "http://127.0.0.1:5500/ourfocus.html#here" ||
+  window.location.href === "https://hanatestsite.netlify.app/ourfocus.html#here"
+) {
+  choiceOne.addEventListener("click", () => {
     num = 0;
-    updateDisplay('finacc');
+    updateDisplay("finacc");
   });
 
-  choiceTwo.addEventListener('click', () => {
+  choiceTwo.addEventListener("click", () => {
     num = 1;
-    updateDisplay('itser');
+    updateDisplay("itser");
   });
 
-  choiceThree.addEventListener('click', () => {
+  choiceThree.addEventListener("click", () => {
     num = 2;
-    updateDisplay('indus');
+    updateDisplay("indus");
   });
-  choiceFour.addEventListener('click', () => {
+  choiceFour.addEventListener("click", () => {
     num = 3;
-    updateDisplay('offad');
+    updateDisplay("offad");
   });
-
 
   // FUNCTION FOR SWITCHING BETWEEN HTML CONTENT
   function updateDisplay(serviceType) {
@@ -124,28 +131,26 @@ if (window.location.href === 'http://127.0.0.1:5500/ourfocus.html' || window.loc
   }
 
   // ON PAGE LOAD SHOW FINANCE 6 ACCOUNTING SERVICES HTML CONTENT
-  updateDisplay('finacc');
+  updateDisplay("finacc");
 
-  let serviceArr = ['finacc', 'itser', 'indus', 'offad'];
+  let serviceArr = ["finacc", "itser", "indus", "offad"];
 
   let num = 0;
-  rightArr.addEventListener('click', () => {
+  rightArr.addEventListener("click", () => {
     if (num >= 3) {
       num = 3;
-
     } else {
       num++;
-      updateDisplay(serviceArr[num])
+      updateDisplay(serviceArr[num]);
     }
-  })
+  });
 
-  leftArr.addEventListener('click', () => {
+  leftArr.addEventListener("click", () => {
     if (num <= 0) {
       num = 0;
-
     } else {
       num--;
-      updateDisplay(serviceArr[num])
+      updateDisplay(serviceArr[num]);
     }
-  })
+  });
 }
