@@ -205,7 +205,8 @@ body {
 
 .slogan {
   text-align: left;
-  font-size: 3.2rem;
+  font-size: 3rem;
+  line-height: 3.2rem;
   transition: 0.3s all ease-in-out;
 }
 
