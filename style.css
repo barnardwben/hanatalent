@@ -1266,6 +1266,7 @@ body {
   position: relative;
   margin: 0 0 2.25rem 0;
   text-align: center;
+  /* color: black; */
 }
 
 .service-grid-image {
@@ -1577,7 +1578,7 @@ body {
 
 .services-offered {
   font-weight: 400;
-  color: rgb(68, 133, 231);
+  color: rgb(68, 106, 231);
   margin: 5rem 0 2rem 0;
 }
 
