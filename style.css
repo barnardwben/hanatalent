@@ -1245,7 +1245,7 @@ body {
   top: 0rem;
   width: 380px;
   height: 450px;
-  background-color: rgba(15, 15, 15, 0.322);
+  background-color: rgba(15, 15, 15, 0.534);
 
   display: flex;
   text-align: center;
@@ -1266,7 +1266,7 @@ body {
   position: relative;
   margin: 0 0 2.25rem 0;
   text-align: center;
-  /* color: black; */
+  /* color: rgb(136, 136, 136); */
 }
 
 .service-grid-image {
@@ -1871,7 +1871,7 @@ li {
 }
 
 .grfirst {
-  background: rgba(206, 60, 50, 0.589);
+  background: rgba(206, 60, 50, 0.651);
   grid-column: 1;
   grid-row: 2;
 }
@@ -2281,7 +2281,7 @@ q {
   top: 35vh;
   left: 5rem;
   border-radius: 10px;
-  background: rgba(152, 113, 184, 0.932);
+  background: rgba(147, 106, 180, 0.932);
   color: rgb(243, 243, 243);
   transition: 0.3s all ease-in-out;
 }
