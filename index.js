@@ -41,7 +41,7 @@ window.addEventListener("scroll", () => {
     ? navbar.classList.add("darken")
     : navbar.classList.remove("darken");
   if (
-    window.location.href === "https://hanatalent.com/index.html" ||
+    window.location.href === "https://www.hanatalent.com/index.html" ||
     window.location.href === "http://127.0.0.1:5500/index.html" ||
     window.location.href === "https://hanatestsite.netlify.app/"
   ) {
