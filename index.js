@@ -47,6 +47,7 @@ window.addEventListener("scroll", () => {
   ) {
     // GRID SET ONE ANIMATION
     if (window.scrollY > 500) {
+      console.log("yes");
       firstImage.classList.add("slider-from-left");
       firstImage.classList.remove("opacity");
       firstText.classList.add("slider-from-right");
@@ -97,7 +98,7 @@ const rightArr = document.querySelector(".right-arr");
 
 if (
   window.location.href === "http://127.0.0.1:5500/ourfocus.html" ||
-  window.location.href === "https://hanatestsite.netlify.app/ourfocus.html" ||
+  window.location.href === "https://hanatestsite.com/ourfocus.html" ||
   window.location.href === "http://127.0.0.1:5500/ourfocus.html#here" ||
   window.location.href === "https://hanatestsite.netlify.app/ourfocus.html#here"
 ) {
