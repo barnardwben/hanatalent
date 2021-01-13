@@ -2969,3 +2969,8 @@ textarea {
 .escape {
   display: none;
 }
+
+.bbtrademark {
+  color: rgb(0, 132, 255);
+  text-decoration: none;
+}
