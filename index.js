@@ -40,11 +40,7 @@ window.addEventListener("scroll", () => {
   window.scrollY > 35
     ? navbar.classList.add("darken")
     : navbar.classList.remove("darken");
-  if (
-    window.location.href === "https://www.hanatalent.com/index.html" ||
-    window.location.href === "http://127.0.0.1:5500/index.html" ||
-    window.location.href === "https://hanatestsite.netlify.app/"
-  ) {
+  if (window.location.href === "https://www.hanatalent.com/index.html") {
     // GRID SET ONE ANIMATION
     if (window.scrollY > 500) {
       console.log("yes");
