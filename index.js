@@ -40,7 +40,10 @@ window.addEventListener("scroll", () => {
   window.scrollY > 35
     ? navbar.classList.add("darken")
     : navbar.classList.remove("darken");
-  if (window.location.href === "https://www.hanatalent.com/index.html") {
+  if (
+    window.location.href === "https://www.hanatalent.com/index" ||
+    "https://www.hanatalent.com/index"
+  ) {
     // GRID SET ONE ANIMATION
     if (window.scrollY > 500) {
       console.log("yes");
@@ -93,8 +96,8 @@ const leftArr = document.querySelector(".left-arr");
 const rightArr = document.querySelector(".right-arr");
 
 if (
-  window.location.href === "https://www.hanatalent.com/ourfocus.html" ||
-  window.location.href === "https://www.hanatalent.com/ourfocus.html#here"
+  window.location.href === "https://www.hanatalent.com/ourfocus" ||
+  window.location.href === "https://www.hanatalent.com/ourfocus#here"
 ) {
   choiceOne.addEventListener("click", () => {
     num = 0;
