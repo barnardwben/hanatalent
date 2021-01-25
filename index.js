@@ -97,7 +97,8 @@ const rightArr = document.querySelector(".right-arr");
 
 if (
   window.location.href === "https://www.hanatalent.com/ourfocus" ||
-  window.location.href === "https://www.hanatalent.com/ourfocus#here"
+  window.location.href === "https://www.hanatalent.com/ourfocus#here" ||
+  window.location.href === "https://hanatestsite.netlify.app/ourfocus"
 ) {
   choiceOne.addEventListener("click", () => {
     num = 0;
